@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+    color: #414141;
+}
+
+header {
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    box-shadow: #110c2e11 0px 15px 50px 0px;
+}
+
+nav {
+    width: 100%;
+
+    padding: 25px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    padding-bottom: .25rem;
+    transition: .3s;
+}
+.menu a:hover {
+   color: #1974a8;
+}
+main {
+    display: grid;
+    place-content: center;
+    min-height: 90vh;
+    min-height: 90dvh;
+}
+
+main h1 {
+
+    text-transform: uppercase;
+}
