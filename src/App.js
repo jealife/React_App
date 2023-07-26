@@ -1,11 +1,12 @@
 import Header from './Components/Header';
-import Name from './Components/Name';
+import Value from './Components/Value';
 import './Styles/App.css';
+
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Name name="JEaLiFe" color="red"/>
+      <Value/>
     </div>
   );
 }

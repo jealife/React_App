@@ -14,3 +14,28 @@ body{
 div{
     padding: 1rem;
 }
+.counter{
+    min-height: 90vh;
+    min-height: 80dvh;
+    height: 100%;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.add-btn{
+    border:none;
+    cursor: pointer;
+    padding: .5rem 1.1rem;
+    font-size: 1.9rem;
+    border-radius: 50%;
+    background-color: #09ff01;
+    color:#ffffff;
+    font-weight: 600;
+    box-shadow: #2aff23dc 0px 48px 100px 0px;
+    position: absolute;
+    bottom: 2rem ;
+}

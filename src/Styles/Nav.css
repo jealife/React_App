@@ -3,8 +3,8 @@ a {
     color: #414141;
 }
 
-header {
-    position: absolute;
+.menu {
+    position: fixed;
     z-index: 10000;
     top: 0;
     right: 0;
@@ -43,7 +43,8 @@ main {
     min-height: 90dvh;
 }
 
-main h1 {
+body h1 {
 
     text-transform: uppercase;
+    font-weight: 900;
 }
